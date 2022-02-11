@@ -15,10 +15,13 @@ export const CheckoutItemContainer = styled.div`
 
 export const ImageContainer = styled.div`
   width: 23%;
-  padding-right: 15px;
+  margin-right: 15px;
+  height: auto;
+  overflow: hidden;
   img {
     width: 100%;
     height: 100%;
+    border-radius: 9px;
   }
 `;
 

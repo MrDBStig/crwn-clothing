@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CartItemContainer = styled.div`
   width: 100%;
@@ -9,6 +9,7 @@ export const CartItemContainer = styled.div`
 
 export const CartItemImage = styled.img`
   width: 30%;
+  border-radius: 7px;
 `;
 
 export const ItemDetailsContainer = styled.div`

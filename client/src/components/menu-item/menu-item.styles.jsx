@@ -38,6 +38,7 @@ export const BackgroundImageContainer = styled.div`
   background-size: cover;
   background-position: center;
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+  border-radius: 11px;
 `;
 
 export const ContentContainer = styled.div`
@@ -51,6 +52,7 @@ export const ContentContainer = styled.div`
   background-color: white;
   opacity: 0.7;
   position: absolute;
+  border-radius: 9px;
 `;
 
 export const ContentTitle = styled.span`
